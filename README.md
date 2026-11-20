@@ -39,7 +39,7 @@ wandb sync wandb/offline-run-*
 # 6. demo
 jupyter notebook ../notebooks/dsw63838_02_gatunkikwiatow.ipynb
 
-# 7. proof of concept (~15 s) i testy (18 testów, ~5 s) — szczegóły w test/README.md
+# 7. proof of concept (~15 s) i testy (18 testów, ~15–20 s) — szczegóły w test/README.md
 cd .. && python test/poc.py && python -m pytest test -q
 ```
 

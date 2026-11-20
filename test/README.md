@@ -31,7 +31,7 @@ Już w mini-skali widać ten sam efekt co w pełnym eksperymencie: odmrożenie o
 ## 2. Testy (`pytest`)
 
 ```bash
-python -m pytest test -q      # 18 testów, ~5 s, CPU
+python -m pytest test -q      # 18 testów, ~15–20 s, CPU
 ```
 
 | plik | co sprawdza |
