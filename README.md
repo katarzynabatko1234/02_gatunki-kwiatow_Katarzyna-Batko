@@ -200,7 +200,10 @@ Porównanie z baseline'em potwierdza ten obraz. Zamrożony model myli te same �
 
 ## 8. Demo
 
-`notebooks/demo.ipynb` (zapisany z wynikami) ładuje najlepszy checkpoint i pokazuje:
-- predykcje top-3 na 12 losowych zdjęciach testowych,
-- przypadki, w których model się myli,
-- predykcję dla dowolnego własnego zdjęcia (zmienna `my_image`).
+`notebooks/demo.ipynb` (zapisany z wynikami) przechodzi przez cały projekt w kolejności wymagań z zadania:
+- dane: liczba przykładów, rozkład klas, rozmiary obrazów, siatka klas, zmienność wewnątrz klasy,
+- tabela wyników wszystkich wariantów z progiem 0,84 i krzywe treningowe,
+- eksperyment z głębokością fine-tuningu (jakość vs czas treningu),
+- ewaluacja najlepszego checkpointu na żywo z **własnym `TopKCounter`** (wynik zgadza się z `results/`),
+- analiza błędów: confusion matrix z powiększeniem na mylone klasy, mylone pary (najlepszy model vs baseline), błędne predykcje obok przykładu przewidzianej klasy, pewność trafnych vs błędnych, korelacja F1 z licznością klasy,
+- demo: predykcje top-3 na losowych zdjęciach testowych i na własnym zdjęciu (zmienna `my_image`).
