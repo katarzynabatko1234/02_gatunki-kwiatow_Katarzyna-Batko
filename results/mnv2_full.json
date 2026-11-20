@@ -1,0 +1,20 @@
+{
+ "run": "mnv2_full",
+ "arch": "mobilenet_v2",
+ "finetune": "full",
+ "epochs": 12,
+ "lr_head": 0.001,
+ "lr_body": 0.0001,
+ "total_params": 2354534,
+ "trainable_params": 2354534,
+ "train_time_s": 970.8899316209972,
+ "mean_epoch_time_s": 80.90749430174976,
+ "best_val_acc": 0.9816849816849816,
+ "latency_ms_bs1": 7.234993749989371,
+ "device": "mps",
+ "test_loss": 0.9710120175929878,
+ "test_acc": 0.978021978021978,
+ "test_top3": 0.9963369963369964,
+ "test_top5": 0.9975579975579976,
+ "test_macro_f1": 0.9761356525744496
+}

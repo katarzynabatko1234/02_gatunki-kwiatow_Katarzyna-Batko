@@ -1,0 +1,49 @@
+{
+ "n_images": 8189,
+ "n_classes": 102,
+ "split_sizes": {
+  "train": 6551,
+  "test": 819,
+  "val": 819
+ },
+ "per_class_min": 40,
+ "per_class_max": 258,
+ "per_class_mean": 80.3,
+ "per_class_median": 66.0,
+ "imbalance_ratio": 6.45,
+ "smallest_classes": {
+  "pink primrose": 40,
+  "canterbury bells": 40,
+  "moon orchid": 40,
+  "fire lily": 40,
+  "prince of wales feathers": 40
+ },
+ "largest_classes": {
+  "petunia": 258,
+  "passion flower": 251,
+  "wallflower": 196,
+  "water lily": 194,
+  "watercress": 184
+ },
+ "width": {
+  "count": 8189.0,
+  "mean": 630.2,
+  "std": 96.0,
+  "min": 500.0,
+  "25%": 501.0,
+  "50%": 667.0,
+  "75%": 699.0,
+  "max": 1024.0
+ },
+ "height": {
+  "count": 8189.0,
+  "mean": 534.4,
+  "std": 75.5,
+  "min": 500.0,
+  "25%": 500.0,
+  "50%": 500.0,
+  "75%": 501.0,
+  "max": 1168.0
+ },
+ "aspect_ratio_mean": 1.21
+}

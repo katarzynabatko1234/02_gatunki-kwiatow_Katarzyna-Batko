@@ -1,0 +1,300 @@
+{
+ "best_run": "r18_full",
+ "n_test": 819,
+ "n_errors_best": 17,
+ "errors_with_true_in_top3": 0.706,
+ "mean_conf_correct": 0.815,
+ "mean_conf_wrong": 0.313,
+ "spearman_f1_vs_train_count": {
+  "r18_frozen": {
+   "spearman_rho": -0.03,
+   "p_value": 0.762
+  },
+  "r18_last_block": {
+   "spearman_rho": -0.109,
+   "p_value": 0.274
+  },
+  "r18_full": {
+   "spearman_rho": -0.309,
+   "p_value": 0.00157
+  },
+  "mnv2_frozen": {
+   "spearman_rho": 0.046,
+   "p_value": 0.648
+  },
+  "mnv2_full": {
+   "spearman_rho": -0.133,
+   "p_value": 0.183
+  }
+ },
+ "class_groups_best": {
+  "n_classes_with_errors": 12,
+  "median_train_count_classes_with_errors": 73.5,
+  "median_train_count_classes_perfect": 50.0
+ },
+ "top_confused_pairs_best": [
+  {
+   "a": 95,
+   "b": 96,
+   "name_a": "camellia",
+   "name_b": "mallow",
+   "a_as_b": 3,
+   "b_as_a": 0,
+   "total": 3
+  },
+  {
+   "a": 29,
+   "b": 30,
+   "name_a": "sweet william",
+   "name_b": "carnation",
+   "a_as_b": 0,
+   "b_as_a": 2,
+   "total": 2
+  },
+  {
+   "a": 50,
+   "b": 75,
+   "name_a": "petunia",
+   "name_b": "morning glory",
+   "a_as_b": 0,
+   "b_as_a": 1,
+   "total": 1
+  },
+  {
+   "a": 38,
+   "b": 87,
+   "name_a": "siam tulip",
+   "name_b": "cyclamen",
+   "a_as_b": 1,
+   "b_as_a": 0,
+   "total": 1
+  },
+  {
+   "a": 52,
+   "b": 82,
+   "name_a": "primula",
+   "name_b": "hibiscus",
+   "a_as_b": 1,
+   "b_as_a": 0,
+   "total": 1
+  },
+  {
+   "a": 82,
+   "b": 85,
+   "name_a": "hibiscus",
+   "name_b": "tree mallow",
+   "a_as_b": 1,
+   "b_as_a": 0,
+   "total": 1
+  },
+  {
+   "a": 29,
+   "b": 45,
+   "name_a": "sweet william",
+   "name_b": "wallflower",
+   "a_as_b": 1,
+   "b_as_a": 0,
+   "total": 1
+  },
+  {
+   "a": 77,
+   "b": 95,
+   "name_a": "lotus",
+   "name_b": "camellia",
+   "a_as_b": 1,
+   "b_as_a": 0,
+   "total": 1
+  },
+  {
+   "a": 4,
+   "b": 40,
+   "name_a": "english marigold",
+   "name_b": "barbeton daisy",
+   "a_as_b": 1,
+   "b_as_a": 0,
+   "total": 1
+  },
+  {
+   "a": 43,
+   "b": 52,
+   "name_a": "poinsettia",
+   "name_b": "primula",
+   "a_as_b": 0,
+   "b_as_a": 1,
+   "total": 1
+  },
+  {
+   "a": 43,
+   "b": 94,
+   "name_a": "poinsettia",
+   "name_b": "bougainvillea",
+   "a_as_b": 0,
+   "b_as_a": 1,
+   "total": 1
+  },
+  {
+   "a": 42,
+   "b": 81,
+   "name_a": "sword lily",
+   "name_b": "clematis",
+   "a_as_b": 1,
+   "b_as_a": 0,
+   "total": 1
+  },
+  {
+   "a": 29,
+   "b": 31,
+   "name_a": "sweet william",
+   "name_b": "garden phlox",
+   "a_as_b": 1,
+   "b_as_a": 0,
+   "total": 1
+  },
+  {
+   "a": 36,
+   "b": 83,
+   "name_a": "cape flower",
+   "name_b": "columbine",
+   "a_as_b": 0,
+   "b_as_a": 1,
+   "total": 1
+  }
+ ],
+ "top_confused_pairs_baseline": [
+  {
+   "a": 29,
+   "b": 71,
+   "name_a": "sweet william",
+   "name_b": "azalea",
+   "a_as_b": 2,
+   "b_as_a": 0,
+   "total": 2
+  },
+  {
+   "a": 50,
+   "b": 94,
+   "name_a": "petunia",
+   "name_b": "bougainvillea",
+   "a_as_b": 0,
+   "b_as_a": 2,
+   "total": 2
+  },
+  {
+   "a": 88,
+   "b": 96,
+   "name_a": "watercress",
+   "name_b": "mallow",
+   "a_as_b": 0,
+   "b_as_a": 2,
+   "total": 2
+  },
+  {
+   "a": 29,
+   "b": 30,
+   "name_a": "sweet william",
+   "name_b": "carnation",
+   "a_as_b": 0,
+   "b_as_a": 2,
+   "total": 2
+  },
+  {
+   "a": 95,
+   "b": 96,
+   "name_a": "camellia",
+   "name_b": "mallow",
+   "a_as_b": 2,
+   "b_as_a": 0,
+   "total": 2
+  },
+  {
+   "a": 2,
+   "b": 94,
+   "name_a": "canterbury bells",
+   "name_b": "bougainvillea",
+   "a_as_b": 2,
+   "b_as_a": 0,
+   "total": 2
+  },
+  {
+   "a": 2,
+   "b": 50,
+   "name_a": "canterbury bells",
+   "name_b": "petunia",
+   "a_as_b": 2,
+   "b_as_a": 0,
+   "total": 2
+  },
+  {
+   "a": 73,
+   "b": 79,
+   "name_a": "rose",
+   "name_b": "anthurium",
+   "a_as_b": 1,
+   "b_as_a": 1,
+   "total": 2
+  },
+  {
+   "a": 38,
+   "b": 87,
+   "name_a": "siam tulip",
+   "name_b": "cyclamen",
+   "a_as_b": 0,
+   "b_as_a": 2,
+   "total": 2
+  },
+  {
+   "a": 3,
+   "b": 10,
+   "name_a": "sweet pea",
+   "name_b": "snapdragon",
+   "a_as_b": 0,
+   "b_as_a": 1,
+   "total": 1
+  },
+  {
+   "a": 31,
+   "b": 35,
+   "name_a": "garden phlox",
+   "name_b": "ruby-lipped cattleya",
+   "a_as_b": 1,
+   "b_as_a": 0,
+   "total": 1
+  },
+  {
+   "a": 39,
+   "b": 93,
+   "name_a": "lenten rose",
+   "name_b": "foxglove",
+   "a_as_b": 1,
+   "b_as_a": 0,
+   "total": 1
+  },
+  {
+   "a": 0,
+   "b": 82,
+   "name_a": "pink primrose",
+   "name_b": "hibiscus",
+   "a_as_b": 0,
+   "b_as_a": 1,
+   "total": 1
+  },
+  {
+   "a": 2,
+   "b": 27,
+   "name_a": "canterbury bells",
+   "name_b": "stemless gentian",
+   "a_as_b": 0,
+   "b_as_a": 1,
+   "total": 1
+  },
+  {
+   "a": 76,
+   "b": 91,
+   "name_a": "passion flower",
+   "name_b": "bee balm",
+   "a_as_b": 0,
+   "b_as_a": 1,
+   "total": 1
+  }
+ ]
+}

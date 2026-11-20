@@ -1,0 +1,20 @@
+{
+ "run": "r18_frozen",
+ "arch": "resnet18",
+ "finetune": "frozen",
+ "epochs": 10,
+ "lr_head": 0.001,
+ "lr_body": 0.0,
+ "total_params": 11228838,
+ "trainable_params": 52326,
+ "train_time_s": 220.28238229200178,
+ "mean_epoch_time_s": 22.028238229200177,
+ "best_val_acc": 0.905982905982906,
+ "latency_ms_bs1": 7.515602049988956,
+ "device": "mps",
+ "test_loss": 1.3447481747511978,
+ "test_acc": 0.905982905982906,
+ "test_top3": 0.9694749694749695,
+ "test_top5": 0.9865689865689866,
+ "test_macro_f1": 0.8931054448400083
+}

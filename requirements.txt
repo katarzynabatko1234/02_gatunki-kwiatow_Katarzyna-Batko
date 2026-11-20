@@ -1,0 +1,17 @@
+torch>=2.2
+torchvision>=0.17
+kagglehub
+wandb
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+pillow
+tqdm
+jupyter
+nbconvert
+ipykernel
+scipy
+tabulate
+pytest

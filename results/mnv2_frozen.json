@@ -1,0 +1,20 @@
+{
+ "run": "mnv2_frozen",
+ "arch": "mobilenet_v2",
+ "finetune": "frozen",
+ "epochs": 10,
+ "lr_head": 0.001,
+ "lr_body": 0.0,
+ "total_params": 2354534,
+ "trainable_params": 130662,
+ "train_time_s": 157.64302179100196,
+ "mean_epoch_time_s": 15.764302179100195,
+ "best_val_acc": 0.9474969474969475,
+ "latency_ms_bs1": 12.227060399982292,
+ "device": "mps",
+ "test_loss": 1.2122799296373268,
+ "test_acc": 0.9438339438339438,
+ "test_top3": 0.9865689865689866,
+ "test_top5": 0.9938949938949939,
+ "test_macro_f1": 0.9336457036895648
+}
