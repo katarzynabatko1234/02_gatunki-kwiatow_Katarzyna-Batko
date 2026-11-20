@@ -37,7 +37,7 @@ wandb sync wandb/offline-run-*
 #   następnie w ustawieniach projektu na wandb.ai: Visibility → Public
 
 # 6. demo
-jupyter notebook ../notebooks/demo.ipynb
+jupyter notebook ../notebooks/dsw63838_02_gatunkikwiatow.ipynb
 
 # 7. proof of concept (~15 s) i testy (18 testów, ~5 s) — szczegóły w test/README.md
 cd .. && python test/poc.py && python -m pytest test -q
@@ -58,7 +58,7 @@ Do repozytorium **nie** trafiają dane (`data/`), wagi (`checkpoints/*.pt`), `wa
 | `src/train.py` | pętla treningowa, logowanie do W&B, wybór najlepszej epoki po val accuracy, ewaluacja na teście |
 | `src/analyze_data.py` | EDA |
 | `src/evaluate.py` | tabela wyników, wykresy, confusion matrix, analiza błędów |
-| `notebooks/demo.ipynb` | demo: predykcje top-3 na zdjęciach testowych i na własnym zdjęciu |
+| `notebooks/dsw63838_02_gatunkikwiatow.ipynb` | notebook: analiza danych, wyniki, eksperyment, analiza błędów i demo predykcji top-3 |
 | `figures/`, `results/`, `splits/` | wykresy, metryki (json/csv), plik podziału |
 
 ---
@@ -200,7 +200,7 @@ Porównanie z baseline'em potwierdza ten obraz. Zamrożony model myli te same �
 
 ## 8. Demo
 
-`notebooks/demo.ipynb` (zapisany z wynikami) przechodzi przez cały projekt w kolejności wymagań z zadania:
+`notebooks/dsw63838_02_gatunkikwiatow.ipynb` (zapisany z wynikami) przechodzi przez cały projekt w kolejności wymagań z zadania:
 - dane: liczba przykładów, rozkład klas, rozmiary obrazów, siatka klas, zmienność wewnątrz klasy,
 - tabela wyników wszystkich wariantów z progiem 0,84 i krzywe treningowe,
 - eksperyment z głębokością fine-tuningu (jakość vs czas treningu),
